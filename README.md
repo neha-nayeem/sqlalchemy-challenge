@@ -2,13 +2,13 @@
 
 ## Background
 
-This assignment involved analysing and exploring Hawaii's climate data in 2 steps:
-**1. Climate Analysis and Exploration**
+This assignment involved analysing and exploring Hawaii's climate data in 2 steps:<br>
+**1. Climate Analysis and Exploration**<br>
 **2. Climate App**
 
 ## Notes
 
-* All analyses and visualizations, including the bonus challenges, can be found in the Jupyter notebook called `climate-analysis.ipynb` .
+* All analyses and visualizations, including the bonus challenges, can be found in the Jupyter notebook called `climate-analysis.ipynb`.
 
 * The `Resources` folder contains the `hawaii.sqlite` database file and 2 csv files containing the measurement and station tables.
 
