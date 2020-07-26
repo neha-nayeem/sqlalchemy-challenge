@@ -27,7 +27,7 @@ The datetime library was used to identify the date 12 months prior to the last d
 ![precipitation.png](Images/prcp.png)
 
 A statistics summary using `.describe()` revealed the following:
-    <p><img src="Images/stats.png" alt="stats" title="Summary Stats" width="200px" height="222px"></p>
+    <p><img src="Images/stats.png" alt="stats" title="Summary Stats" width="200px" height="300px"></p>
 
 ### Station Analysis
 
@@ -80,5 +80,4 @@ The second part of this challenge involved finding daily normals for each date o
 ![daily-normals.png](Images/dailynormals.png)
 
 Trip daily normals dataframe:
-
-![trip-normals.png](Images/trip-normals.png)
+<p><img src="Images/trip-normals.png" alt="trip-normals" title="Trip Daily Normals" width="200px" height="300px"></p>
