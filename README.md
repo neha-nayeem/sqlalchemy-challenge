@@ -27,7 +27,7 @@ The datetime library was used to identify the date 12 months prior to the last d
 ![precipitation.png](Images/prcp.png)
 
 A statistics summary using `.describe()` revealed the following:
-    <p><img src="Images/stats.png" alt="stats" title="Summary Stats" width="200px" height="300px"></p>
+    <p><img src="Images/stats.png" alt="stats" title="Summary Stats" width="180px"></p>
 
 ### Station Analysis
 
@@ -63,7 +63,7 @@ A paired t-test was used as we are comparing the means of the same group i.e. in
 
 ### Temperature Analysis II
 
-This challenge involved using a predefined function that calculated daily normals for a given date range. The `.timedelta()` method from the datetime library was also used to determine matching start and end dates from the previous year.
+This challenge involved using a predefined function that calculated daily normals for a given date range (2018-06-01 to 2018-06-15). The `.timedelta()` method from the datetime library was also used to determine matching start and end dates from the previous year.
 
 With the daily normals, the following graph was plotted using tavg, tmin and tmax values:
 
@@ -75,9 +75,9 @@ In this challenge, the first ask was to calculate the precipitation for each wea
 
 ![bonus-rainfall-df.png](Images/bonus-rainfall-df.png)
 
-The second part of this challenge involved finding daily normals for each date of our define trip (using historic data with same dates) and plotting an area plot as below:
+The second part of this challenge involved finding daily normals for each date of our defined trip from 2018-06-01 to 2018-06-15 (using only the month and day to identify historic data with the same dates) and plotting an area plot as below:
 
 ![daily-normals.png](Images/dailynormals.png)
 
 Trip daily normals dataframe:
-<p><img src="Images/trip-normals.png" alt="trip-normals" title="Trip Daily Normals" width="200px" height="300px"></p>
+<p><img src="Images/trip-normals.png" alt="trip-normals" title="Trip Daily Normals" width="300px"></p>
