@@ -12,9 +12,9 @@ This assignment involved analysing and exploring Hawaii's climate data in 2 step
 
 * The `Resources` folder contains the `hawaii.sqlite` database file and 2 csv files containing the measurement and station tables.
 
-* The `images` folder that contains 4 visualizations from the analysis and bonus challenges.
+* The `images` folder contains 4 visualizations from the analysis and bonus challenges.
 
-* The `app.py` file contains the code for a FLask web app to query the climate database.
+* The `app.py` file contains the code for a Flask web app to query the climate database.
 
 ## Step 1: Climate Analysis and Exploration
 
@@ -27,8 +27,7 @@ The datetime library was used to identify the date 12 months prior to the last d
 ![precipitation.png](Images/prcp.png)
 
 A statistics summary using `.describe()` revealed the following:
-
-![stats-summary.png](Images/stats.png)
+    <p><img src="Images/stats.png" alt="stats" title="Summary Stats" width="200px" height="222px"></p>
 
 ### Station Analysis
 
