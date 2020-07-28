@@ -47,9 +47,9 @@ This is a web app in the `app.py` file, created using SQLAlchemy and Flask API. 
 
 * **Temperature Observations (/api/v1.0/tobs)**: This route displays every date and temperature observation for the most active station in Hawaii (USC00519281) in the last 12 months of data available.
 
-* **Temperature Observations (/api/v1.0/start_date)**: This route allows you to enter a start date in the format 'YYYY-MM-DD' to retrieve daily normals (TMIN, TAVG, TMAX) from that date onward until the end of data available.
+* **Daily Normals from start date (/api/v1.0/start_date)**: This route allows you to enter a start date in the format 'YYYY-MM-DD' to retrieve daily normals (TMIN, TAVG, TMAX) from that date onward until the end of data available.
 
-* **Temperature Observations (/api/v1.0/start_date/end_date)**: This route allows you to enter a start date AND an end date in the format 'YYYY-MM-DD' to retrieve daily normals (TMIN, TAVG, TMAX) for the date range.
+* **Daily Normals between start and end date (/api/v1.0/start_date/end_date)**: This route allows you to enter a start date AND an end date in the format 'YYYY-MM-DD' to retrieve daily normals (TMIN, TAVG, TMAX) for the date range.
 
 ## Bonus Challenges
 
